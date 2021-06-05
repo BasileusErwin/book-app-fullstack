@@ -8,7 +8,7 @@
         "dev": "cross-env NODE_ENV=development nodemon ./backend/index.js --ignore frontend",
         "server:dev": "webpack-cli serve --mode development",
         "start": "cross-env NODE_ENV=production node backend/index.js",
-        "postinstall": "npm run bild"
+        "postinstall": "npm run build"
     },
     "main": "index.js",
     "dependencies": {
